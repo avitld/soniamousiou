@@ -1,0 +1,76 @@
+html {
+    background: url('ip.png') no-repeat;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    margin: 0 auto;
+    background-attachment: fixed;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(./Roboto-CondensedItalic.ttf);
+}
+
+body {
+    font-size: 24px;
+    text-align: center;
+
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+
+    box-shadow: 1px 1px 6px black;
+
+    border-radius: 8px;
+    font-family: Roboto, sans-serif;
+
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+
+.button {
+    text-align: center;
+    text-decoration: none;
+    transition: 230ms;
+    color:darkorchid;
+    font-weight: bold;
+}
+
+.button:hover {
+    font-size: 24px;
+    color: purple;
+}
+
+.titl {
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 44px;
+    transition: all 3s;
+    transition-delay: 4s;
+    color: rgb(0, 95, 17);
+}
+
+hr {
+    color:rgb(0, 95, 17);
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(0, 95, 17);
+    transition: 600ms;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    font-weight: bolder;
+    color: rgb(0, 121, 22);
+}
+
+.selected {
+    text-decoration: underline;
+}
