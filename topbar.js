@@ -7,7 +7,7 @@ function change() {
     }
 } 
 
-function change() {
+function contactic() {
   var x = document.getElementById("contacti");
   if (x.className === "ba") {
     x.id === ".active"
