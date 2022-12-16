@@ -1,0 +1,217 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    text-align: center;
+    vertical-align: middle;
+    font-family: sans-serif, monospace;
+    font-size: larger;
+    background-color: rgb(31, 31, 31);
+    color: white;
+    margin: 0px 0px 0px 0px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: rgb(41, 41, 41);
+    position: fixed;
+    text-align: center;  
+    margin: 0px 0px 0px 0px;
+    top: 0;
+    width: 100%;
+    box-shadow: 5px 5px 8px black;
+}
+
+.article-container {
+    text-align: center;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(29,29,29);
+    font-size: larger;
+}
+
+.spec {
+    color: green;
+    font-weight: bolder;
+    text-decoration: none;
+    transition: all 500ms;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.spec:hover {
+    color: darkgreen;
+}
+
+.ba {
+    float: right;
+    vertical-align: middle;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    transition: 400ms;
+}
+
+.ba:hover {
+    background-color: white;
+    color: rgb(31, 31, 31);
+}
+
+.ba:active {
+    background-color: #007a4e;
+    color: white;
+}
+
+#active {
+    background-color: #007a4e;
+    color: white;
+}
+
+.icon {
+    display: none;
+}
+
+.topnav img {
+    text-align: left;
+    float: left;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .icon {
+        float: right;
+        display: block;
+        color: #ffffff;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        transition: 400ms;
+    }
+}
+  
+@media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .ba .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive .baholder .ba {
+      float: none;
+      display: block;
+      text-align: right;
+    }
+}
+
+.welcomediv {
+    background-image: url("./parakelsos2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    vertical-align: middle;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    padding-top: 70px;
+    font-size: x-large;
+    padding-bottom: 70px;
+}
+
+.welcomediv img {
+    border-radius: 6px;
+    float: right;
+    margin-right: 25px;
+}
+
+.homeodiv {
+    background-image: url("./pills.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    font-weight: bolder;
+    padding-bottom: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.zoidiv {
+    background-image: url("./horses.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    font-weight: bolder;
+    padding-bottom: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.botanodiv {
+    background-image: url("./bottle1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    font-weight: bolder;
+    padding-bottom: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.piretostitle {
+    background-image: url("./baby.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    font-weight: bolder;
+    padding-bottom: 110px;
+    color: rgb(255, 255, 255);
+}  
+
+.xolistertitle {
+    background-image: url("./cells.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    font-weight: bolder;
+    padding-bottom: 110px;
+    color: rgb(255, 255, 255);
+}
+
+.apotojtitle {
+    background-image: url("./lemon.png"); 
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    font-weight: bolder;
+    padding-bottom: 110px;
+    color: rgb(255, 255, 255);
+}
+
+.canctitle {
+    background-image: url("./cancer.png"); 
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    font-weight: bolder;
+    padding-bottom: 110px;
+    color: rgb(255, 255, 255);
+}
+
+.kattitle {
+    background-image: url("./kat.png"); 
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    font-weight: bolder;
+    padding-bottom: 110px;
+    color: rgb(255, 255, 255);
+}
+
+.contactio {
+    background-color: rgb(68, 68, 68);
+    color: rgb(187, 187, 187);
+    border-radius: 4px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
